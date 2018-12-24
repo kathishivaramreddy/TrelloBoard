@@ -1,0 +1,25 @@
+li{
+    margin-right: 5px;
+    list-style: none;
+    margin-bottom: 2px;
+    cursor:pointer;
+}
+.draggable{
+    background-color: aquamarine;
+    cursor:pointer;
+}
+.container{
+
+}
+.todo,.inprogress{
+    display:block;
+    float:left;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: antiquewhite;
+    width: 20%;
+    height: 480px;
+    margin: 8px;
+
+}

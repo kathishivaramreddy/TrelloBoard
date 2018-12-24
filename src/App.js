@@ -8,8 +8,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
         </header>
-        <TrelloBoard/>
-      </div>
+          <div >
+            <TrelloBoard/>
+          </div>
+        </div>
     );
   }
 }
